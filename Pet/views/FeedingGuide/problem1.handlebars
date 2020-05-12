@@ -1,0 +1,216 @@
+
+    <div id="all">
+      <!-- Top bar-->
+      <div class="top-bar">
+        <div class="container">
+          <div class="row d-flex align-items-center">
+            <div class="col-md-6 d-md-block d-none">
+              <p>BHOW BHOW DOG ADOPTION</p>
+            </div>
+            <div class="col-md-6">
+              <div class="d-flex justify-content-md-end justify-content-between">
+                <ul class="list-inline contact-info d-block d-md-none">
+                  <li class="list-inline-item"><a href="#"><i class="fa fa-phone"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fa fa-envelope"></i></a></li>
+                </ul>
+                
+                
+				<!-- Log Out & Admin -->
+                <div class="login">
+                <a href="#" data-toggle="modal" data-target="" class="login-btn"><i class="fa fa-sign-in"></i><span class="d-none d-md-inline-block">Log Out</span></a>             
+                 
+                 <a href="admin.html" class="signup-btn"><i class="fa fa-user"></i><span class="d-none d-md-inline-block">Admin</span></a> 
+                </div>
+                <ul class="social-custom list-inline">
+                  <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fa fa-envelope"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Top bar end-->
+      
+      <!-- Navbar Start-->
+      <header class="nav-holder make-sticky">
+        <div id="navbar" role="navigation" class="navbar navbar-expand-lg">
+          <div class="container"><a href="index.html" class="navbar-brand home"><img src="img/logo.png" alt="Universal logo" class="d-none d-md-inline-block"><img src="img/logo.png" alt="Universal logo" class="d-inline-block d-md-none"><span class="sr-only">Universal - go to homepage</span></a>
+            <button type="button" data-toggle="collapse" data-target="#navigation" class="navbar-toggler btn-template-outlined"><span class="sr-only">Toggle navigation</span><i class="fa fa-align-justify"></i></button>
+            <div id="navigation" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item dropdown"><a href="index.html">Home</a> 
+                </li>
+
+                <!-- ========== Find a dog dropdown ==================-->
+                <li class="nav-item dropdown"><a href="javascript: void(0)" data-toggle="dropdown" class="dropdown-toggle">Find a dog <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                  	<li class="dropdown-item"><a href="dog-breeds.html" class="nav-link">DOG BREEDS</a></li>
+                    <li class="dropdown-item"><a href="dog-quiz.html" class="nav-link">DOG QUIZ</a></li>
+                    <li class="dropdown-item"><a href="dog-search.html" class="nav-link">Dog search</a></li>
+                  </ul>
+                </li>
+                <!-- ========== Find a dog dropdown end ==================-->
+              
+              <!-- ========== Dog Feeding Guide dropdown ==================-->
+                <li class="nav-item dropdown active"><a href="javascript: void(0)" data-toggle="dropdown" class="dropdown-toggle">Dog Feeding Guide <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item active"><a href="dog-problems.html" class="nav-link">Dog Problems</a></li>
+                    <li class="dropdown-item"><a href="dog-nutririon.html" class="nav-link">Dog Nutrition</a></li>
+                  </ul>
+                </li>
+                <!-- ==========Dog Feeding Guide end ==================-->
+                
+                
+                
+                <!-- ========== User&Advertiser dropdown ==================-->
+                <li class="nav-item dropdown"><a href="javascript: void(0)" data-toggle="dropdown" class="dropdown-toggle">My Account<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                  	<!-- Do check first, if a user/advertiser not log in, show "Log IN", if user/advertiser already log in, show "Logout" -->
+                    
+                    <li class="dropdown-item dropdown-submenu"><a id="navbarDropdownMenuLink1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">Log In</a>
+                      <ul aria-labelledby="navbarDropdownMenuLink1" class="dropdown-menu">
+                        <li class="dropdown-item"><a href="user_login.html" class="nav-link">User LogIn</a></li>
+                        <li class="dropdown-item"><a href="advertiser_login.html" class="nav-link">Advertiser LogIn</a></li>
+                      </ul>
+                    </li> 
+                    <li class="dropdown-item dropdown-submenu"><a id="navbarDropdownMenuLink2" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">Register</a>
+                      <ul aria-labelledby="navbarDropdownMenuLink2" class="dropdown-menu">
+                        <li class="dropdown-item"><a href="user_register.html" class="nav-link">User Register</a></li>
+                        <li class="dropdown-item"><a href="advertiser_register.html" class="nav-link">Advertiser Register</a></li>
+                      </ul>
+                    </li>
+                    
+                    <!-- Do check first, if a user login in, then Show then li of "User Center", 
+                    if is advertiser, show "Advertiser Center"-->
+                    <li class="dropdown-item"><a href="user_center.html" class="nav-link">User Center</a></li>
+                    <li class="dropdown-item"><a href="advertiser_center.html" class="nav-link">Advertiser Center</a></li>
+                    
+                    
+                  </ul>
+                </li>
+                
+                
+         
+                <!-- ==========User&Advertiser end ==================-->
+                
+                
+                
+                
+                <!-- ========== Contact  ==================-->
+                <li class="nav-item dropdown"><a href="contact.html">Contact</a>
+                </li>
+                <!-- ========== Contact end ==================-->
+                
+              </ul>
+            </div>
+            <div id="search" class="collapse clearfix">
+              <form role="search" class="navbar-form">
+                <div class="input-group">
+                  <input type="text" placeholder="Search" class="form-control"><span class="input-group-btn">
+                    <button type="submit" class="btn btn-template-main"><i class="fa fa-search"></i></button></span>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- Navbar End-->
+      
+      <div id="heading-breadcrumbs" class="border-top-0 border-bottom-0">
+        <div class="container">
+          <div class="row d-flex align-items-center flex-wrap">
+            <div class="col-md-7">
+              <h1 class="h2">Dog problems</h1>
+            </div>
+            <div class="col-md-5">
+              <ul class="breadcrumb d-flex justify-content-end">
+                <li class="breadcrumb-item"><a href="">Dog feeding guide</a></li>
+                <li class="breadcrumb-item active">Dog problems</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="container">
+          <div class="row bar">
+            <!-- LEFT COLUMN _________________________________________________________-->
+            <div id="blog-post" class="col-md-9">
+            <h1>How To Stop A Dog From Chewing</h1>
+              <p class="text-muted text-uppercase mb-small text-right text-sm">By <a href="#">PetFinder</a> |  June 20, 2019</p>
+              <p class="lead">There are many ways to stop a dog from chewing everything. While puppies chew for discovery and teething, adolescent dogs chew out of boredom, pain, anxiety, isolation or just for fun! Once the motivation for chewing is identified it’s easier to find a solution on how to stop a dog from chewing.</p>
+              <div id="post-content">
+                <p><img src="img/how-to-stop-a-dog-from-chewing.jpg" alt="Example blog post alt" class="img-fluid"></p>
+                
+                <h2>8 Steps to stop power chewing everything</h2>
+                <p>Dog and puppy chewing is a natural behavior to explore the environment. The one thing to be aware of is that when a dog chews everything it can become a compulsive behavior. The best way to deter a pup or adolescent dog from chomping through your home is to provide alternatives.</p>
+                <blockquote class="blockquote">
+                
+                <p>Try distracting your dog with these 8 tips for power chewers.</p>
+                <ol>
+                  <li>Provide indestructible toys or puzzle toys.</li>
+                  <li>Treat with super-sized, long-lasting chews that keep his teeth clean.</li>
+                  <li>Set him up for success by dog-proofing your home. Make sure items like shoes, clothes and any prized possessions are picked up and put away.</li>
+                  <li>Exercise your dog before leaving him for a time period with an appropriate chew toy.</li>
+                  <li>If your dog chews something that is not his, give him the verbal instruction “No” then redirect him to chewing an approved toy.</li>
+                  <li>Coat items you cannot move such as tv wires with a pet-friendly, natural bitter repellant.</li>
+                  <li>Give a verbal warning such as “no” and then draw her attention to an acceptable toy.</li>
+                  <li>Praise your pup for chewing on an approved object.</li>
+                  
+                </ol>
+                
+                </blockquote>
+                
+                
+                <h2>What type of chewer is your dog?</h2>
+                <p>It’s important to understand why your dog is chewing before you get to how to stop your dog from chewing. Every new puppy or dog parent should expect a certain amount of destruction from curiosity-based or tension-relieving oral tendencies of a pet.</p>
+                <p>The solution to the problem lies in removing the environmental cause and guiding the dog towards the appropriate objects to chew. Once you understand the motivation for chewing, apply one of these in-home-training techniques.</p>
+                <blockquote class="blockquote">
+                
+                <p>Just like humans, dogs can become bored if they don’t receive enough mental stimulation or exercise. As a result, your dog may look for ways to amuse himself or alleviate boredom, including destructive chewing.</p>
+                <p>Some dogs can become anxious when left alone or when their family isn’t present. One common symptom of separation anxiety can be destructive chewing. While treatment can sometimes be tricky, here are tips that may help your dog feel more comfortable when alone.</p>
+                
+                </blockquote>
+              </div>
+              
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      
+      <!-- FOOTER -->
+      <footer class="main-footer">
+        
+        <div class="copyrights">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 text-center-md">
+                <p>&copy; 2020. BHOW-BHOW</p>
+              </div>
+              <div class="col-lg-8 text-right text-center-md">
+                <p> <a href="https://www.stevens.edu/academics/" target="_blank" title="stevens">Stevens Institute Of Technology</a></p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- Javascript files-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper.js/umd/popper.min.js"> </script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+    <script src="vendor/waypoints/lib/jquery.waypoints.min.js"> </script>
+    <script src="vendor/jquery.counterup/jquery.counterup.min.js"> </script>
+    <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="vendor/owl.carousel2.thumbs/owl.carousel2.thumbs.min.js"></script>
+    <script src="js/jquery.parallax-1.1.3.js"></script>
+    <script src="vendor/bootstrap-select/js/bootstrap-select.min.js"></script>
+    <script src="vendor/jquery.scrollto/jquery.scrollTo.min.js"></script>
+    <script src="js/front.js"></script>

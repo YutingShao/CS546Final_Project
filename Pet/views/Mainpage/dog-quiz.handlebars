@@ -1,0 +1,274 @@
+
+    <div id="all">
+      <!-- Top bar-->
+      <div class="top-bar">
+        <div class="container">
+          <div class="row d-flex align-items-center">
+            <div class="col-md-6 d-md-block d-none">
+              <p>BHOW BHOW DOG ADOPTION</p>
+            </div>
+            <div class="col-md-6">
+              <div class="d-flex justify-content-md-end justify-content-between">
+                <ul class="list-inline contact-info d-block d-md-none">
+                  <li class="list-inline-item"><a href="#"><i class="fa fa-phone"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fa fa-envelope"></i></a></li>
+                </ul>
+                
+                
+				<!-- Log Out & Admin -->
+                <div class="login">
+                <a href="#" data-toggle="modal" data-target="" class="login-btn"><i class="fa fa-sign-in"></i><span class="d-none d-md-inline-block">Log Out</span></a>             
+                 
+                 <a href="admin.html" class="signup-btn"><i class="fa fa-user"></i><span class="d-none d-md-inline-block">Admin</span></a> 
+                </div>
+                <ul class="social-custom list-inline">
+                  <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fa fa-envelope"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Top bar end-->
+     
+      <!-- Navbar Start-->
+      <header class="nav-holder make-sticky">
+        <div id="navbar" role="navigation" class="navbar navbar-expand-lg">
+          <div class="container"><a href="index.html" class="navbar-brand home"><img src="img/logo.png" alt="Universal logo" class="d-none d-md-inline-block"><img src="img/logo.png" alt="Universal logo" class="d-inline-block d-md-none"><span class="sr-only">Universal - go to homepage</span></a>
+            <button type="button" data-toggle="collapse" data-target="#navigation" class="navbar-toggler btn-template-outlined"><span class="sr-only">Toggle navigation</span><i class="fa fa-align-justify"></i></button>
+            <div id="navigation" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item dropdown"><a href="index.html">Home</a> 
+                </li>
+
+                <!-- ========== Find a dog dropdown ==================-->
+                <li class="nav-item dropdown active"><a href="javascript: void(0)" data-toggle="dropdown" class="dropdown-toggle">Find a dog <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                  	<li class="dropdown-item"><a href="dog-breeds.html" class="nav-link">DOG BREEDS</a></li>
+                    <li class="dropdown-item active"><a href="dog-quiz.html" class="nav-link">DOG QUIZ</a></li>
+                    <li class="dropdown-item"><a href="dog-search.html" class="nav-link">Dog search</a></li>
+                  </ul>
+                </li>
+                <!-- ========== Find a dog dropdown end ==================-->
+              
+              <!-- ========== Dog Feeding Guide dropdown ==================-->
+                <li class="nav-item dropdown"><a href="javascript: void(0)" data-toggle="dropdown" class="dropdown-toggle">Dog Feeding Guide <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item"><a href="dog-problems.html" class="nav-link">Dog Problems</a></li>
+                    <li class="dropdown-item"><a href="dog-nutririon.html" class="nav-link">Dog Nutrition</a></li>
+                  </ul>
+                </li>
+                <!-- ==========Dog Feeding Guide end ==================-->
+                
+                
+                
+                <!-- ========== User&Advertiser dropdown ==================-->
+                <li class="nav-item dropdown"><a href="javascript: void(0)" data-toggle="dropdown" class="dropdown-toggle">My Account<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                  	<!-- Do check first, if a user/advertiser not log in, show "Log IN", if user/advertiser already log in, show "Logout" -->
+                    
+                    <li class="dropdown-item dropdown-submenu"><a id="navbarDropdownMenuLink1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">Log In</a>
+                      <ul aria-labelledby="navbarDropdownMenuLink1" class="dropdown-menu">
+                        <li class="dropdown-item"><a href="user_login.html" class="nav-link">User LogIn</a></li>
+                        <li class="dropdown-item"><a href="advertiser_login.html" class="nav-link">Advertiser LogIn</a></li>
+                      </ul>
+                    </li> 
+                    <li class="dropdown-item dropdown-submenu"><a id="navbarDropdownMenuLink2" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">Register</a>
+                      <ul aria-labelledby="navbarDropdownMenuLink2" class="dropdown-menu">
+                        <li class="dropdown-item"><a href="user_register.html" class="nav-link">User Register</a></li>
+                        <li class="dropdown-item"><a href="advertiser_register.html" class="nav-link">Advertiser Register</a></li>
+                      </ul>
+                    </li>
+                    
+                    <!-- Do check first, if a user login in, then Show then li of "User Center", 
+                    if is advertiser, show "Advertiser Center"-->
+                    <li class="dropdown-item"><a href="user_center.html" class="nav-link">User Center</a></li>
+                    <li class="dropdown-item"><a href="advertiser_center.html" class="nav-link">Advertiser Center</a></li>
+                    
+                    
+                  </ul>
+                </li>
+                
+                
+        
+                         
+                <!-- ==========User&Advertiser end ==================-->
+                
+                
+                
+                
+                <!-- ========== Contact  ==================-->
+                <li class="nav-item dropdown"><a href="contact.html">Contact</a>
+                </li>
+                <!-- ========== Contact end ==================-->
+                
+              </ul>
+            </div>
+            <div id="search" class="collapse clearfix">
+              <form role="search" class="navbar-form">
+                <div class="input-group">
+                  <input type="text" placeholder="Search" class="form-control"><span class="input-group-btn">
+                    <button type="submit" class="btn btn-template-main"><i class="fa fa-search"></i></button></span>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- Navbar End-->
+
+      
+      
+      
+      
+      
+      
+      
+      <div class="container">
+    <!-- <img id="cover" src="https://dogsbestlife.com/wp-content/uploads/2018/05/science-says-sleep-with-your-dog-emotional-support.jpeg" alt="Dog Image"> -->
+    <!-- <img id="cover" src="https://www.sciencenewsforstudents.org/wp-content/uploads/2019/11/860-header-dog-breeds.jpg" alt="Dog Image"> -->
+    <img id="cover" src="img/Dogs-for-Kids.jpg" alt="Dog Image">
+    <div>
+        <svg class="bi bi-house-door" width="3em" height="3em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M7.646 1.146a.5.5 0 01.708 0l6 6a.5.5 0 01.146.354v7a.5.5 0 01-.5.5H9.5a.5.5 0 01-.5-.5v-4H7v4a.5.5 0 01-.5.5H2a.5.5 0 01-.5-.5v-7a.5.5 0 01.146-.354l6-6zM2.5 7.707V14H6v-4a.5.5 0 01.5-.5h3a.5.5 0 01.5.5v4h3.5V7.707L8 2.207l-5.5 5.5z" clip-rule="evenodd"/>
+            <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 01.5-.5h1a.5.5 0 01.5.5z" clip-rule="evenodd"/>
+          </svg>
+          <i class="fas fa-camera fa-xs"></i>
+        <h2 class="header">Every dog deserves more than a loving home – they deserve the right loving home. Find the best match for your family.</h2>
+    </div>
+    <div id="quiz">
+    <form action="#" method="POST" onsubmit="return mySubmit(this)">
+    
+
+        <div class="questions_groups">
+            <h2 class="question">1. What type of home/living space do you have?</h2>    
+            <input type="radio" class = "radio_keys" name = "space" value="1" >It's bigger than a closet, so I call it an apartment<br>
+            <input type="radio" class = "radio_keys" name = "space" value="2" >"Cozy" House<br>
+            <input type="radio" class = "radio_keys" name = "space" value="3" >Large House<br>
+            
+            <h2 class="question">2. Are you able to keep a dog secure?</h2>
+            <input type="radio" class = "radio_keys" name = "secure" value="3">YES<br>
+            <input type="radio" class = "radio_keys" name = "secure"  value="2">NO<br>
+            <input type="radio" class = "radio_keys" name = "secure" value="1">USUALLY<br>
+        
+            <h2 class="question">3. Where is your home?</h2>
+            <input type="radio" class = "radio_keys" name = "place" value="1">Downtown<br>
+            <input type="radio" class = "radio_keys" name = "place"  value="2">Suburb or small town<br>
+            <input type="radio" class = "radio_keys" name = "place" value="3">Rural retreat (listen, you can hear the grass growing)<br>
+
+            <h2 class="question">4. For how long would your dog be alone each week?</h2>
+            <input type="radio" class = "radio_keys" name = "accompany_time" value="1">Not at all<br>
+            <input type="radio" class = "radio_keys" name = "accompany_time"  value="2">10–20 hours<br>
+            <input type="radio" class = "radio_keys" name = "accompany_time" value="3">20–40 hours<br>
+            <input type="radio" class = "radio_keys" name = "accompany_time" value="4">More than 40 hours<br>
+
+            <h2 class="question">5. Do elderly or disabled people stay with you?</h2>
+            <input type="radio" class = "radio_keys" name = "elder" value="1">No<br>
+            <input type="radio" class = "radio_keys" name = "elder"  value="2">Sometimes<br>
+            <input type="radio" class = "radio_keys" name = "elder" value="3">Often<br>
+            <input type="radio" class = "radio_keys" name = "elder" value="4" >Permanently<br>
+
+            <h2 class="question">6. What is the age of the youngest child living in or regularly visiting your home?</h2>
+            <input type="radio" class = "radio_keys" name = "child" value="1">No children<br>
+            <input type="radio" class = "radio_keys" name = "child"  value="2">Under 5 years<br>
+            <input type="radio" class = "radio_keys" name = "child" value="3">Ages 6 to 11<br>
+            <input type="radio" class = "radio_keys" name = "child" value="4">Over 12<br>
+            <h2 class="question">7. How energetic should your dog be?</h2>
+            <input type="radio" class = "radio_keys" name = "energy" value="1">"You don't really expect me to fetch that ball, do you?"<br>
+            <input type="radio" class = "radio_keys" name = "energy"  value="2">"Let's play catch—but don't make me run around too much"<br>
+            <input type="radio" class = "radio_keys" name = "energy" value="3">"This is fun, throw the ball again!"<br>
+            <input type="radio" class = "radio_keys" name = "energy" value="4">"Why are you stopping? We've only been playing for 3 hours!"<br>
+            <h2 class="question">8. How much daily exercise will you give your dog?</h2>
+            <input type="radio" class = "radio_keys" name = "exercise" value="1">None, I'm basically a couch potato<br>
+            <input type="radio" class = "radio_keys" name = "exercise"  value="2">30 minutes<br>
+            <input type="radio" class = "radio_keys" name = "exercise" value="3">1 hour<br>
+            <input type="radio" class = "radio_keys" name = "exercise" value="4">More than 1 hour<br> 
+        </div>
+        
+    <div id="submit_button">
+        <button type="submit" class="btn btn-primary">Submit Quiz</button>
+    </div>
+
+    </form>
+
+   
+    </div>
+          <script>
+                function mySubmit(form){
+
+                    document.getElementById("result").style.display="block";
+                    let formData = new FormData(form);
+
+                    let hoppy1 = [formData.get('space'),formData.get('secure'),formData.get('place'),formData.get('accompany_time'),
+                                formData.get('elder'),formData.get('child'),formData.get('energy'),formData.get('exercise')];
+
+                    var sum = 0;
+                    for(var i in hoppy1){
+                        sum += parseInt(hoppy1[i]);
+                        console.log(sum);
+                    }
+
+                    var dogImage = document.getElementById("dogImage");
+                    var dogName = document.getElementById("dogName");
+                    var dogDesc = document.getElementById("dogDesc");
+                    console.log(sum);
+                    if(sum <= 15 && sum >= 8){
+                        dogImage.src = "https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12223645/Sussex-Spaniel-On-White-01.jpg";
+                        dogName.innerHTML = "Sussex Spaniel";
+                        dogDesc.innerHTML = "Sussex are long, low-built bird dogs of great strength and endurance. Topping out at just 15 inches tall at the shoulder, Sussex are nonetheless described as “massive,” with a deep chest and heavy bone. Their trademark is an abundant, feathery coat of rich golden-liver. The classic spaniel head, with its wavy-coated ears and big hazel eyes, projects a somber, frowning expression delightfully at odds with the Sussex’s innate cheerfulness.";
+                    }else if(sum > 15 && sum <= 20){
+                        dogImage.src = "https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/30202205/Airedale-Terrier-standing-stacked-outdoors.jpg";
+                        dogName.innerHTML = "Airedale Terrier";
+                        dogDesc.innerHTML = "The Airedale Terrier is the largest of all terrier breeds. Males stand about 23 inches at the shoulder, females a little less. The dense, wiry coat is tan with black markings. Long, muscular legs give Airedales a regal lift in their bearing, and the long head—with its sporty beard and mustache, dark eyes, and neatly folded ears—conveys a keen intelligence. Airedales are the very picture of an alert and willing terrier—only bigger. And, like his smaller cousins in the terrier family, he can be bold, determined, and stubborn. Airedales are docile and patient with kids but won’t back down when protecting hearth and home. Thanks to their famous do-it-all attitude, Airedales excel in all kinds of sports and family activities.";
+                    }else if(sum >20 && sum <= 25){
+                        dogImage.src = "https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/13001724/American-Eskimo-Dog-On-White-01.jpg";
+                        dogName.innerHTML = "American Eskimo Dog";
+                        dogDesc.innerHTML = "The American Eskimo Dog comes in three sizes—standard, miniature, and toy—standing as tall as 19 inches at the shoulder or as short as 9 inches. Distinctive traits include a dense, sparkling white coat with a lion-like ruff around the chest and shoulders; a smiling face, with black nose, lips, and eye-rims that convey a keen, intelligent expression; and a plumed tail carried over the back. Some Eskies have markings with the delicious color name “biscuit cream.” They move with a bold and agile gait.<br />Eskies are social animals and can develop problem behaviors when neglected or undertrained—they insist on being part of family life. Among the most trainable of breeds, the clever, kid-friendly Eskie practically invented the phrase “eager to please.";
+                    }else{
+                        dogImage.src = "https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/13001815/Alaskan-Malamute-On-White-03.jpg";
+                        dogName.innerHTML = "Alaskan Malamute";
+                        dogDesc.innerHTML = "The Alaskan Malamute stands 23 to 25 inches at the shoulder and weighs 75 to 85 pounds. Everything about Mals suggests their origin as an arctic sled dog: The heavy bone, deep chest, powerful shoulders, and dense, weatherproof coat all scream, “I work hard for a living!” But their almond-shaped brown eyes have an affectionate sparkle, suggesting Mals enjoy snuggling with their humans when the workday is done. Mals are pack animals. And in your family “pack,” the leader must be you. If a Mal doesn’t respect you, he will wind up owning you instead of the other way around. Firm but loving training should begin in early puppyhood. That said, a well-behaved Mal is a joy to be with—playful, gentle, friendly, and great with kids.";
+                    }
+                    return false;
+                }
+        </script>
+        <div id="result" class="card mb-3" style="max-width: 950px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img id = "dogImage" src="..." class="card-img" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h3 class="title">The best match dog: </h3>
+        <h4 id="dogName">-</h4>
+        <p id= "dogDesc" class="card-text"></p>
+      </div>
+    </div>
+  </div>
+</div>
+   </div>
+      
+      
+      
+      
+      <!-- FOOTER -->
+      <footer class="main-footer">     
+        <br><br><br><br><br><br><br><br><br>
+      </footer>
+    </div>
+    <!-- Javascript files-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper.js/umd/popper.min.js"> </script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+    <script src="vendor/waypoints/lib/jquery.waypoints.min.js"> </script>
+    <script src="vendor/jquery.counterup/jquery.counterup.min.js"> </script>
+    <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="vendor/owl.carousel2.thumbs/owl.carousel2.thumbs.min.js"></script>
+    <script src="js/jquery.parallax-1.1.3.js"></script>
+    <script src="vendor/bootstrap-select/js/bootstrap-select.min.js"></script>
+    <script src="vendor/jquery.scrollto/jquery.scrollTo.min.js"></script>
+    <script src="js/front.js"></script>
